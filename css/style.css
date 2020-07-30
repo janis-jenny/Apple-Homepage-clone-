@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+div {
+    border: 1px black solid;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section {
+  flex-direction: column;
+  justify-content: center;
+  width: 1280px;
+  background-image: url(../images/main-section-background.jpg);
+  background-size: cover;
+  background-position-y: -600px;
+  height: 570px;
+}
+
+.navbar {
+  
+}
+
+.verse {
+  text-align: center;
+}
+
+.verse a {
+  text-decoration: none;
+  color: white;
+}
+
+.verse h1 {
+  font-size: 55px;
+  font-weight: 100;
+}
+
+.verse p {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.bottom-section {
+  width: 1280px;
+}
+
+.footer-section {
+  width: 1280px;
+}
