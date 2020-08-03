@@ -4,10 +4,6 @@ body {
   border: 0;
 }
 
-div {
-  border: 1px black solid;
-}
-
 .flex {
   display: flex;
 }
@@ -20,7 +16,6 @@ div {
 
 .main-section {
   flex-direction: column;
-  justify-content: center;
   width: 100%;
   background-image: url(../images/main-section-background.jpg);
   background-size: cover;
@@ -29,7 +24,61 @@ div {
 }
 
 .navbar {
-  
+  justify-content: center;
+  height: 36px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.navbar button {
+  color: white;
+  cursor: pointer;
+}
+
+.normal-box-1 {
+  background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
+  width: 5%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px gray solid;
+}
+
+.normal-box {
+  background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
+  width: 5%;
+  border: 1px gray solid;
+}
+
+.search-box {
+  background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
+  width: 7%;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px gray solid;
+}
+
+.normal-box-1:hover,
+.normal-box:hover {
+  background: linear-gradient(to top, #4d4d4d, #2c2c2c, #4d4d4d 55%, #4d4d4d 45%, #525252, #4d4d4d);
+}
+
+.search-bar {
+  width: 70%;
+  background-color: gray;
+  border-radius: 25px;
+  padding-right: 12px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  text-align: center;
+  border: 1px #4d4d4d solid;
+}
+
+.search-box i {
+  position: absolute;
+  color: white;
+  padding-left: 17px;
+  font-size: 11px;
 }
 
 .verse {
@@ -92,6 +141,11 @@ div {
 
 .footer-section a {
   text-decoration: none;
+  color: #08c;
+}
+
+.footer-section a:hover {
+  text-decoration: underline;
   color: #08c;
 }
 
