@@ -73,31 +73,39 @@ div {
   font-size: 11px;
 }
 
+.footer-section div {
+  padding: 0;
+  margin-top: 20px;
+}
+
 .footer-section p {
-  font-size: 9px;
-  margin: 20px 20px 20px 20em;
-  
-  
+  text-align: right;
+  padding-right: 40px;
+  color: grey;
 }
 
 .links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-section a {
   text-decoration: none;
   color: #08c;
-  cursor: pointer;
-  list-style: none;
-  text-decoration: none;
-  margin: 20px 0 20px 0;
-  padding: 5px;
+}
+
+.links li {
+  padding: 0px 10px;
+  border-right: 1px solid gray;
+  height: 15px;
 }
 
 .flag-icon {
-  width: 7%;
-  height: 7%;
-  float: right;
-  margin: 0px;
-  padding: 0px;
-  
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 0;
 }
