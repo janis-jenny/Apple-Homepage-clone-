@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .flex {
@@ -9,9 +11,8 @@ body {
 }
 
 .container {
-  width: 99%;
+  width: 100%;
   flex-direction: column;
-  align-items: center;
 }
 
 .main-section {
@@ -24,10 +25,10 @@ body {
 }
 
 .navbar {
-  justify-content: center;
   height: 36px;
   margin-top: 30px;
   margin-bottom: 50px;
+  width: 100%;
 }
 
 .navbar button {
@@ -37,21 +38,22 @@ body {
 
 .normal-box-1 {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
-  width: 5%;
+  width: 10%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: 1px gray solid;
+  text-align: center;
 }
 
 .normal-box {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
-  width: 5%;
+  width: 10%;
   border: 1px gray solid;
 }
 
 .search-box {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
-  width: 7%;
+  width: 14%;
   align-items: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -83,21 +85,29 @@ body {
 
 .verse {
   text-align: center;
+  
 }
 
 .verse a {
   text-decoration: none;
   color: white;
-}
-
-.verse h1 {
-  font-size: 55px;
   font-weight: 100;
 }
 
-.verse p {
-  font-size: 24px;
+.question {
+  font-size: 62px;
   font-weight: 100;
+}
+
+.main-text {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 10px;
+}
+
+.video-text {
+  font-size: 23px;
+  margin-top: 30px;
 }
 
 .bottom-section {
