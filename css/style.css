@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .flex {
@@ -136,7 +136,7 @@ body {
 
 .grid img {
   width: 100%;
-  height: auto; 
+  height: auto;
 }
 
 /* End of Bottom Section */
@@ -189,7 +189,7 @@ body {
 }
 
 .links li {
-  padding: 0px 10px;
+  padding: 0 10px;
   border-right: 1px solid gray;
   height: 15px;
 }
