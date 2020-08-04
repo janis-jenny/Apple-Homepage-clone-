@@ -13,22 +13,23 @@ body {
 .container {
   width: 100%;
   flex-direction: column;
+  align-items: center;
 }
 
 .main-section {
   flex-direction: column;
-  width: 100%;
+  align-items: center;
+  width: 80%;
   background-image: url(../images/main-section-background.jpg);
   background-size: cover;
-  background-position-y: -600px;
-  height: 570px;
+  background-position-y: -750px;
+  height: 650px;
 }
 
 .navbar {
   height: 36px;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  width: 100%;
+  margin-top: 50px;
+  width: 70%;
 }
 
 .navbar button {
@@ -38,7 +39,7 @@ body {
 
 .normal-box-1 {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
-  width: 10%;
+  width: 11%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: 1px gray solid;
@@ -47,13 +48,13 @@ body {
 
 .normal-box {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
-  width: 10%;
+  width: 11%;
   border: 1px gray solid;
 }
 
 .search-box {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
-  width: 14%;
+  width: 12%;
   align-items: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -85,7 +86,6 @@ body {
 
 .verse {
   text-align: center;
-  
 }
 
 .verse a {
@@ -94,9 +94,15 @@ body {
   font-weight: 100;
 }
 
+.verse div {
+  margin-bottom: 50px;
+}
+
 .question {
   font-size: 62px;
   font-weight: 100;
+  margin: 10px;
+  margin-top: 100px;
 }
 
 .main-text {
@@ -107,11 +113,14 @@ body {
 
 .video-text {
   font-size: 23px;
-  margin-top: 30px;
+}
+
+.video-text:hover {
+  text-decoration: underline;
 }
 
 .bottom-section {
-  width: 100%;
+  width: 80%;
 }
 
 .grid {
@@ -126,19 +135,30 @@ body {
 }
 
 .footer-section {
-  width: 100%;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 11px;
 }
 
-.footer-section div {
+.right-box {
   padding: 0;
   margin-top: 20px;
 }
 
+.left-box {
+  justify-content: flex-end;
+  padding-right: 0;
+  margin-top: 20px;
+}
+
+.left-box div {
+  width: 65%;
+  justify-content: flex-end;
+}
+
 .footer-section p {
-  text-align: right;
+  text-align: left;
   padding-right: 40px;
   color: grey;
 }
