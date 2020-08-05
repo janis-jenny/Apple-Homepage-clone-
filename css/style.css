@@ -23,7 +23,8 @@ body {
   width: 80%;
   background-image: url(../images/main-section-background.jpg);
   background-size: cover;
-  background-position-y: -750px;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
   height: 650px;
 }
 
@@ -43,7 +44,7 @@ body {
   text-align: center;
   text-decoration: none;
   color: white;
-  padding-top: 1%;
+  line-height: 35px;
 }
 
 .normal-box-1 {
@@ -54,7 +55,9 @@ body {
 }
 
 .normal-box-1 img {
-  width: 100%;
+  width: 60%;
+  height: auto;
+  padding-top: 2%;
 }
 
 .normal-box {
@@ -80,7 +83,7 @@ body {
   background-color: gray;
   border-radius: 25px;
   padding-right: 12px;
-  margin-left: 10px;
+  margin-left: 9%;
   margin-bottom: 2px;
   text-align: center;
   border: 1px #4d4d4d solid;
@@ -90,6 +93,7 @@ body {
   position: absolute;
   color: white;
   padding-left: 17px;
+  padding-bottom: 2px;
   font-size: 11px;
 }
 
@@ -167,10 +171,11 @@ body {
   justify-content: flex-end;
   padding-right: 0;
   margin-top: 20px;
+  width: 160%;
 }
 
 .left-box div {
-  width: 65%;
+  width: 80%;
   justify-content: flex-end;
 }
 
