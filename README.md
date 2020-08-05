@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Youtube-Page
+# Apple-Page
 
 > This is a project for cloning an archived Apple page as a learning guide .
 
@@ -35,7 +35,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jonathastavares/Youtube-Page/issues).
+Feel free to check the [issues page](https://github.com/janis-jenny/Apple-Homepage-clone-/issues).
 
 ## Show your support
 
