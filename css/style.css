@@ -38,23 +38,31 @@ body {
   cursor: pointer;
 }
 
-.normal-box-1 {
+.navbar-style {
   background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding-top: 1%;
+}
+
+.normal-box-1 {
   width: 11%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   border: 1px gray solid;
-  text-align: center;
+}
+
+.normal-box-1 img {
+  width: 100%;
 }
 
 .normal-box {
-  background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
   width: 11%;
   border: 1px gray solid;
 }
 
 .search-box {
-  background: linear-gradient(to top, #6e6e6e, #4d4d4d, #6b6b6b 55%, #6e6e6e 45%, #707070, #6e6e6e);
   width: 12%;
   align-items: center;
   border-top-right-radius: 5px;
