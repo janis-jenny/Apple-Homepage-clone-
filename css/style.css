@@ -157,25 +157,26 @@ body {
 
 .footer-section {
   width: 80%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-size: 11px;
+  font-size: 8px;
 }
 
 .right-box {
   padding: 0;
-  margin-top: 20px;
+  margin: 20px 0 20px 0;
+  float: right;
+  width: 50%;
 }
 
 .left-box {
   justify-content: flex-end;
   padding-right: 0;
-  margin-top: 20px;
-  width: 160%;
+  float: left;
+  margin: 20px 0 20px 0;
+  width: 50%;
 }
 
 .left-box div {
-  width: 80%;
+  width: 75%;
   justify-content: flex-end;
 }
 
